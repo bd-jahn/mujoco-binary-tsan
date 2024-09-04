@@ -1,0 +1,13 @@
+<mujoco model="cube3">
+    <compiler angle="radian" eulerseq="xyz" coordinate="local"></compiler>
+    <asset>
+        <mesh name="cube3" file="cube3.obj"/>
+    </asset>
+
+    <worldbody>
+        <body name="cube3" pos="0 0 0">
+            <geom name="geom3" type="mesh" mesh="cube3"/>
+            <inertial mass="0.02" pos="0 0 0" diaginertia="0.000003774 0.000003774 0.000000581"/>
+        </body>
+    </worldbody>
+</mujoco>

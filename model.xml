@@ -1,0 +1,7 @@
+<mujoco model="cubes">
+
+    <include file="cube1.xml"/>
+    <include file="cube2.xml"/>
+    <include file="cube3.xml"/>
+
+</mujoco>
